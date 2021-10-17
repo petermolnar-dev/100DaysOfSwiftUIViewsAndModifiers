@@ -12,8 +12,9 @@ struct GridStackContentView: View {
         GridStack(rows: 4, columns: 4) { row, col in
             Image(systemName: "\(row * 4 + col).circle")
                 .padding(2)
+                .imageScale(.large)
             Text("R\(row) C\(col)")
-                .font(.system(.caption, design: .monospaced))
+                .font(.system(.headline, design: .monospaced))
         }
     }
 }

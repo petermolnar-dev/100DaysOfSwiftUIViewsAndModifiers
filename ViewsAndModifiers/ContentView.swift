@@ -39,6 +39,7 @@ struct ContentView: View {
                 Text("Ravenclaw")
                     .titleStyle()
                 Text("Slytherin")
+                    .makeProminent()
                 motto1
                     .foregroundColor(.red)
                 motto2
@@ -106,6 +107,20 @@ struct WaterMark: ViewModifier {
 extension View {
     func waterMarked(with text: String) -> some View {
         self.modifier(WaterMark(text: text))
+    }
+}
+
+struct Prominent: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .foregroundColor(Color.blue)
+    }
+}
+
+extension View {
+    func makeProminent() -> some View {
+        self.modifier(Prominent())
     }
 }
 

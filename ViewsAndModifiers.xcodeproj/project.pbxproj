@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AE36780271D7643004E5669 /* WorkingWithForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3677F271D7643004E5669 /* WorkingWithForEach.swift */; };
+		5AE36782271D76BD004E5669 /* WorkingWithBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36781271D76BD004E5669 /* WorkingWithBindings.swift */; };
 		C79AA632271B47EB00EC029F /* ViewsAndModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79AA631271B47EB00EC029F /* ViewsAndModifiersApp.swift */; };
 		C79AA634271B47EB00EC029F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79AA633271B47EB00EC029F /* ContentView.swift */; };
 		C79AA636271B47ED00EC029F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79AA635271B47ED00EC029F /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AE3677F271D7643004E5669 /* WorkingWithForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithForEach.swift; sourceTree = "<group>"; };
+		5AE36781271D76BD004E5669 /* WorkingWithBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithBindings.swift; sourceTree = "<group>"; };
 		C79AA62E271B47EB00EC029F /* ViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79AA631271B47EB00EC029F /* ViewsAndModifiersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiersApp.swift; sourceTree = "<group>"; };
 		C79AA633271B47EB00EC029F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 				C79AA631271B47EB00EC029F /* ViewsAndModifiersApp.swift */,
 				C79AA633271B47EB00EC029F /* ContentView.swift */,
 				C79AA63F271C6E4A00EC029F /* GridStackContentView.swift */,
+				5AE3677F271D7643004E5669 /* WorkingWithForEach.swift */,
+				5AE36781271D76BD004E5669 /* WorkingWithBindings.swift */,
 				C79AA635271B47ED00EC029F /* Assets.xcassets */,
 				C79AA637271B47ED00EC029F /* Preview Content */,
 			);
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE36780271D7643004E5669 /* WorkingWithForEach.swift in Sources */,
 				C79AA634271B47EB00EC029F /* ContentView.swift in Sources */,
 				C79AA640271C6E4A00EC029F /* GridStackContentView.swift in Sources */,
+				5AE36782271D76BD004E5669 /* WorkingWithBindings.swift in Sources */,
 				C79AA632271B47EB00EC029F /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
